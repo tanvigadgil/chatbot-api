@@ -1,16 +1,14 @@
+
 import json
 
-# Opening JSON file
 f = open('mental_disorders.json')
 
-# returns JSON object as
-# a dictionary
+
 data = json.load(f)
 
-# Iterating through the json
-# list
-for i in data['types']:
-	print(i)
+for i in data['name']:
+	if i['disorder'] == "Anoreksia Nervosa":
+		print(i['short_description'])
 
-# Closing file
+
 f.close()
