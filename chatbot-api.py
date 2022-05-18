@@ -5,6 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
+import json
 
 
 
@@ -46,7 +47,8 @@ def getData():
 
 
 # Provide texts with full forms and start with capital letters. Don't use 'I'm', 'don't' etc words.
-
+file = open('mental_disorders.json')
+data = json.load(file)
 @app.route('/chatbot')
 def getChatbotResponse():
     text = request.args.get('text')
@@ -83,8 +85,11 @@ def getChatbotResponse():
         response = "Just like there are various types of drugs for physical illness, different treatment options are available for individuals with mental illness. Treatment works differently for different people.Important to find what is most suitable for you or your other relatives."
 
 # Mental disorders
-    elif text in ['thanks', 'Thanks', 'Thanks a lot', 'Thank you']:
-        response = "Most welcome!"
+    elif text in ['Autism', 'Bad Mood', 'Bruxism', 'Delirium', 'Delusional', 'Depression', 'Fobia', 'Bipolar', 'Social anxiety', 'Anxiety', 'Personality disorder', 'Hallucinations', 'OCD']:
+        for i in data['disorder']:
+            if i['name'] == text:
+                response = i['response']
+                break
 
 # Thanks
     elif text in ['thanks', 'Thanks', 'Thanks a lot', 'Thank you']:
