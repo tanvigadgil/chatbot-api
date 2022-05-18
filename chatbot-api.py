@@ -85,9 +85,15 @@ def getChatbotResponse():
         response = "Just like there are various types of drugs for physical illness, different treatment options are available for individuals with mental illness. Treatment works differently for different people.Important to find what is most suitable for you or your other relatives."
 
 # Mental disorders
-    elif text in ['Autism', 'Bad Mood', 'Bruxism', 'Delirium', 'Delusional', 'Depression', 'Fobia', 'Bipolar', 'Social anxiety', 'Anxiety', 'Personality disorder', 'Hallucinations', 'OCD']:
+    elif text in ['Autism', 'Bad Mood', 'Bruxism', 'Delirium', 'Delusional', 'Depression', 'Phobia', 'Bipolar', 'Social anxiety', 'Anxiety', 'Personality disorder', 'Hallucinations', 'OCD']:
         for i in data['disorder']:
             if i['name'] == text:
+                response = i['response']
+                break
+# What is anxiety
+    elif text == "What is anxiety":
+        for i in data['disorder']:
+            if i['name'] == "anxiety":
                 response = i['response']
                 break
 
