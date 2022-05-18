@@ -1,14 +1,15 @@
-[
+{
+  "name" : [
     {
-      "name": "Agorofobia",
+      "disorder": "Agorofobia",
       "short_description": "Agoraphobia atau agorafobia adalah jenis gangguan kecemasan yang membuat penderita takut berlebihan terhadap ruangan terbuka atau tempat umum. Penderita biasanya menghindari tempat maupun situasi yang mungkin memicu panik, terperangkap, tidak berdaya, atau malu.",
       "types": [
         {
-          "name": "Agorafobia terkait serangan panik",
+          "disorder": "Agorafobia terkait serangan panik",
           "short_description": "Sebagian kasus agorafobia berkembang sebagai komplikasi dari gangguan panik. Kondisi ini muncul setelah penderita mengalami serangan panik dalam situasi atau lingkungan tertentu, yang menyebabkan trauma. Akbatnya, penderita akan berusaha menghindarinya."
         },
         {
-          "name": "Agorafobia yang tidak terkait serangan panik",
+          "disorder": "Agorafobia yang tidak terkait serangan panik",
           "short_description": "Agorafobia juga bisa diderita oleh orang yang tidak terkena gangguan panik. Kondisi ini bisa muncul pada mereka yang mengalami ketakutan berlebih pada kondisi tertentu."
         }
       ],
@@ -103,7 +104,7 @@
     },
   
     {
-      "name": "Anoreksia Nervosa",
+      "disorder": "Anoreksia Nervosa",
       "short_description": "Anoreksia nervosa adalah gangguan makan (eating disorder) yang berpotensi mengancam jiwa. Kondisi ini ditandai dengan aneka masalah psikologi terkait berat badan, bentuk tubuh, dan control terhadap konsumsi makanan.",
       "types": [],
       "signs_and_sympthomps": [
@@ -209,7 +210,7 @@
     },
   
     {
-      "name": "Autisme",
+      "disorder": "Autisme",
       "short_description": "Autism apectrum disorder (ASD) atau autisme adalah kondisi yang berhubungan dengan gangguan perkembangan otak pada bagian interaksi sosial dan komunikasi penderitanya.",
       "types": [],
       "signs_and_sympthomps": [
@@ -291,7 +292,7 @@
     },
   
     {
-      "name": "Bad Mood",
+      "disorder": "Bad Mood",
       "short_description": "Bad mood biasanya menggambarkan perubahan suasana hati atau emosi secara cepat dan intens. Seseorang yang mengalami kondisi ini bisa berubah dengan cepat dari senang menuju sedih.",
       "types": [],
       "signs_and_sympthomps": [],
@@ -341,7 +342,7 @@
     },
   
     {
-      "name": "Bruxism",
+      "disorder": "Bruxism",
       "short_description": "Bruxism merupakan suatu kondisi ketika seseorang menggertakan, menggesekkan, atau mengatupkan gigi secara tidak sadar dan menjadi suatu kebiasaan.",
       "types": [
         { "name": "Bruxism primer", "short_description": "bruxism yang muncul bukan karena suatu kondisi medis tertentu" },
@@ -409,7 +410,7 @@
     },
   
     {
-      "name": "Bulimia Nervosa",
+      "disorder": "Bulimia Nervosa",
       "short_description": "Bulimia adalah gangguan makan serius yang berpotensi mengancam nyawa. Penderita dengan kondisi bulimia mengalami dua periode.",
       "types": [],
       "signs_and_sympthomps": [
@@ -507,7 +508,7 @@
     },
   
     {
-      "name": "Delirium",
+      "disorder": "Delirium",
       "short_description": "Delirium merupakan gangguan kemampuan mental yang ditandai dengan kebingungan dan menurunnya kesadaran (awareness) akan lingkungan sekitar yang dapat menyebabkan gangguan pada emosi.",
       "types": [
         {
@@ -627,7 +628,7 @@
     },
   
     {
-      "name": "Delusional",
+      "disorder": "Delusional",
       "short_description": "Delusional adalah kondisi saat seseorang tidak bisa membedakan kenyataan maupun khayalan. Meskipun banyak bukti memperlihatkan pikirannya hanya khayalan, orang yang delusional akan kesulitan mengakuinya dan tetap meyakini hal tersebut sebagai kenyataan.",
       "types": [
         {
@@ -687,7 +688,7 @@
     },
   
     {
-      "name": "Depresi",
+      "disorder": "Depresi",
       "short_description": "Depresi adalah gangguan suasana hati (mood) yang ditandai dengan perasaan sedih, kehilangan, atau marah dan dapat mengganggu aktivitas sehari-hari seseorang. Kondisi ini juga disebut gangguan depresi mayor atau depresi klinis yang dapat memengaruhi perasaan, cara berpikir, dan berperilaku",
       "types": [],
       "signs_and_sympthomps": [
@@ -788,7 +789,7 @@
     },
   
     {
-      "name": "Depresi Pasca-persalinan",
+      "disorder": "Depresi Pasca-persalinan",
       "short_description": "Postpartum depression (PPD) atau depresi pasca-persalinan adalah salah satu jenis depresi yang dialami oleh ibu setelah melahirkan. Jenis depresi ini tidak hanya terjadi pada para ibu tetapi juga dapat terjadi pada para ayah. Gejalanya biasa baru mulai pada 4 minggu setelah melahirkan.",
       "types": [],
       "signs_and_sympthomps": [
@@ -870,7 +871,7 @@
     },
   
     {
-      "name": "Fobia",
+      "disorder": "Fobia",
       "short_description": "Fobia adalah ketakutan luar biasa yang berlebihan dan tidak masuk akal terhadap situasi atau objek tertentu. Kondisi ini memicu kecemasan dan membuat penderita berusaha untuk menghindari pemicunya dengan segala cara.",
       "types": [
         {
@@ -969,7 +970,7 @@
     },
   
     {
-      "name": "Gagap",
+      "disorder": "Gagap",
       "short_description": "Gagap adalah gangguan bicara yang ditandai dengan adanya pengulangan kata, suara, atau pelafalan saat berbicara. Kondisi ini dapat dialami oleh siapa saja. Namun, gagap paling umum terjadi pada anak-anak yang berusia dua sampai lima tahun.",
       "types": [
         { "name": "Neurogenic stuttering", "short_description": "Gagap yang terjadi karena adanya abnormalitas pada jaringan antara otak dan saraf atau otot." },
@@ -1063,7 +1064,7 @@
     },
   
     {
-      "name": "Gaming Disorder",
+      "disorder": "Gaming Disorder",
       "short_description": "Gaming disorder adalah pola perilaku bermain game yang tidak terkendali hingga dapat mengganggu minat dan aktivitas sehari-hari. Kondisi ini kini telah dimasukkan ke dalam klasifikasi penyakit internasional keluaran terbaru (ICD-11).",
       "types": [],
       "signs_and_sympthomps": [
@@ -1124,7 +1125,7 @@
     },
   
     {
-      "name": "Bipolar",
+      "disorder": "Bipolar",
       "short_description": "Bipolar adalah gangguan mental yang ditandai dengan perubahan mood yang ekstrem. Gejala kelainan jiwa ini dibagi menjadi episode mania (senang berlebihan) dan episode depresi (sedih berlebihan).",
       "types": [
         {
@@ -1221,7 +1222,7 @@
     },
   
     {
-      "name": "Dismorfik Tubuh",
+      "disorder": "Dismorfik Tubuh",
       "short_description": "Gangguan dismorfik tubuh (Body Dysmorphic Disorder/BDD) adalah gangguan mental yang ditandai dengan perasaan terlalu mengkhawatirkan penampilan tidak sempurna ataupun cacat yang sebenarnya tidak terlihat oleh orang lain",
       "types": [],
       "signs_and_sympthomps": [
@@ -1272,7 +1273,7 @@
     },
   
     {
-      "name": "Identitas Disosiatif (Kepribadian Ganda)",
+      "disorder": "Identitas Disosiatif (Kepribadian Ganda)",
       "short_description": "Gangguan identitas disosiatif (ganguan kepribadian ganda) adalah salah satu jenis penyakit mental yang menunjukkan adanya disosiasi atau ketidaksesuaian hubungan antara pikiran, ingatan, lingkungan, tindakan, serta identitas diri.",
       "types": [],
       "signs_and_sympthomps": [
@@ -1368,7 +1369,7 @@
     },
   
     {
-      "name": "Kecemasan Sosial",
+      "disorder": "Kecemasan Sosial",
       "short_description": "Gangguan kecemasan sosial adalah gangguan mental yang menyebabkan kecemasan, takut, atau rasa malu yang sangat intens terhadap interaksi sehari-hari.",
       "types": [],
       "signs_and_sympthomps": [
@@ -1481,7 +1482,7 @@
     },
   
     {
-      "name": "Kecemasan Umum",
+      "disorder": "Kecemasan Umum",
       "short_description": "Gangguan kecemasan umum adalah gangguan mental yang ditandai dengan munculnya rasa cemas dan khawatir yang berlebihan tanpa alasan yang jelas. Gangguan ini dapat dialami oleh anak-anak ataupun orang dewasa.",
       "types": [],
       "signs_and_sympthomps": [
@@ -1563,7 +1564,7 @@
     },
   
     {
-      "name": "Gangguan Kepribadian",
+      "disorder": "Gangguan Kepribadian",
       "short_description": "Gangguan kepribadian merupakan gangguan kesehatan mental yang dicirikan dengan pola pikir, perilaku, dan perasaan yang terganggu dan tidak disadari oleh penderita. Terkadang penderita juga menyalahkan orang lain atas pemikiran atau perilaku yang dilakukan.",
       "types": [
         {
@@ -1657,7 +1658,7 @@
     },
   
     {
-      "name": "Gangguan Kepribadian Ambang",
+      "disorder": "Gangguan Kepribadian Ambang",
       "short_description": "Gangguan kepribadian ambang (borderline personality disorder) adalah salah satu jenis gangguan mental. Gangguan kepribadian ambang ditandai dengan ketidakstabilan akan gambaran diri, hubungan interpersonal, dan emosi inidividu",
       "types": [],
       "signs_and_sympthomps": [
@@ -1776,7 +1777,7 @@
     },
   
     {
-      "name": "Halusinasi",
+      "disorder": "Halusinasi",
       "short_description": "Halusinasi adalah kondisi seseorang seolah-olah melihat, mendengar, mencium, merasakan, atau merasakan hal-hal yang sebenarnya tidak ada. Kondisi ini mungkin bisa membuat takut penderitanya. Beruntung, umumnya kondisi ini bisa diketahui apa penyebabnya",
       "types": [],
       "signs_and_sympthomps": [],
@@ -1793,7 +1794,7 @@
     },
   
     {
-      "name": "Obsessive Compulsive Disorder OCD",
+      "disorder": "Obsessive Compulsive Disorder OCD",
       "short_description": "Obsessive-compulsive disorder atau OCD adalah gangguan mental yang menyebabkan penderitanya memiliki obsesi berulang yang tidak mereka inginkan. Obsesi tersebut dapat berupa pikiran, ide atau sensasi yang bekembang menjadi dorongan yang menganggu dan muncul secara terus-menerus hingga menimbulkan kecemasan pada penderitanya",
       "types": [],
       "signs_and_sympthomps": [
@@ -1888,3 +1889,4 @@
       ]
     }
   ]
+}
